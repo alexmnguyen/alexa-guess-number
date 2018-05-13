@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "guess my number",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HigherIntent",
+          "slots": [],
+          "samples": ["higher"]
+        },
+        {
+          "name": "LowerIntent",
+          "slots": [],
+          "samples": ["lower"]
+        },
+        {
+          "name": "StartIntent",
+          "slots": [],
+          "samples": ["start"]
+        }
+      ],
+      "types": []
+    }
+  }
+}
